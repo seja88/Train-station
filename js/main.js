@@ -18,7 +18,3 @@ const trainObject = {
     status: trainDelay,
     track: trainTrack
 };
-
-
-
-

@@ -97,8 +97,9 @@
 const divMain = document.createElement('div')
 document.body.appendChild(divMain)
 divMain.id = 'main'
+divMain.classList.add('main')
 const heading = document.createElement('div')
-document.body.appendChild(heading)
+divMain.appendChild(heading)
 heading.id = 'main__heading'
 heading.classList.add('main__heading')
 const divTime = document.createElement('div')
@@ -108,4 +109,13 @@ divTime.classList.add('clock')
 const h1Main = document.createElement('h1')
 heading.appendChild(h1Main)
 h1Main.textContent = 'TRAIN DEPARTURES'
+//table
+const table = document.createElement('table')
+divMain.appendChild(table)
+const thead = document.createElement('thead')
+table.appendChild(thead)
+const tbody = document.createElement('tbody')
+table.appendChild(tbody)
+
+
 

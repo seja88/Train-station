@@ -50,3 +50,10 @@ thead {
     font-size: 2em;
     font-weight: bolder;
 }
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
