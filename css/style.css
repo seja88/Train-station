@@ -1,0 +1,52 @@
+.main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+    font-size: 2em;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    padding: 1em;
+}
+
+th {
+    background-color: #ddd;
+    text-align: center;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: .5em;
+    text-align: center;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+thead {
+    text-align: center;
+    font-size: 1.2em;
+    background-color: #ddd;
+}
+
+.main__heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center
+}
+
+.clock {
+    order: 2;
+    min-width: 5em;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bolder;
+}
