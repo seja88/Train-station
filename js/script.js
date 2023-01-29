@@ -98,6 +98,9 @@ const divMain = document.createElement('div')
 document.body.appendChild(divMain)
 divMain.id = 'main'
 divMain.classList.add('main')
+const resetButton = document.createElement("button");
+resetButton.innerHTML = "Reset";
+divMain.appendChild(resetButton);
 const heading = document.createElement('div')
 divMain.appendChild(heading)
 heading.id = 'main__heading'
@@ -116,6 +119,7 @@ const thead = document.createElement('thead')
 table.appendChild(thead)
 const tbody = document.createElement('tbody')
 table.appendChild(tbody)
+
 
 
 

@@ -1,5 +1,5 @@
 const departures = [494, 499, 500, 517, 520, 523, 530, 556, 563, 576, 586, 613, 625];
-const newThead = ['Time', 'Train', 'No', 'To', 'Status', 'Track']
+const newThead = ['Time', 'Train', 'No', 'To', 'Status', 'Track', 'Button']
 const trainHours = departures.map(element => Math.floor(element / 60));
 const trainMinutes = departures.map(element => element - (Math.floor(element / 60) * 60));
 const trainName = ['Acela Express', 'New Haven Line', 'Shore Line East', 'N.E. Regional', 'Shuttle', 'N.E. Regional', 'New Haven Line', 'Shore Line East', 'New Haven Line', 'Acela Express', 'New Haven Line', 'N.E. Regional', 'New Haven Line']
